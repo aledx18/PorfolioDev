@@ -1,17 +1,43 @@
 ---
-import Section from "../Section.astro"
+import GitHub from '@/icons/GitHub.astro'
+import git from '@/icons/git.astro'
+import javaScript from '@/icons/javaScript.astro'
+import typeScript from '@/icons/typeScript.astro'
+import nodeJs from '@/icons/nodeJs.astro'
+import react from '@/icons/react.astro'
+import sql from '@/icons/sql.astro'
+import tailwind from '@/icons/tailwind.astro'
+import nextjs from '@/icons/nextjs.astro'
 
-import { skills } from "@cv"
+import Section from '../Section.astro'
+
+import { skills } from '@cv'
+
+const SOCIAL_ICONS: Record<string, any> = {
+  GitHub,
+  javaScript,
+  git,
+  typeScript,
+  nodeJs,
+  react,
+  sql,
+  tailwind,
+  nextjs
+}
 ---
 
-<Section title="Skills">
+<Section title='Skills'>
   <ul>
     {
-      skills.map(({ name }) => (
-        <li>
-          <span>{name}</span>
-        </li>
-      ))
+      skills.map(({ name, icon }) => {
+        const Icon = SOCIAL_ICONS[icon]
+        return (
+          <li>
+            <span>{name}</span>
+            <Icon />
+          </li>
+        )
+      })
     }
   </ul>
 </Section>
@@ -30,5 +56,8 @@ import { skills } from "@cv"
     font-size: 0.8rem;
     font-weight: 500;
     padding: 0.2rem 0.6rem;
+    display: flex;
+    align-items: center;
+    gap: 4px;
   }
 </style>
