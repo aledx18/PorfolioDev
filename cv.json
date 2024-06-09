@@ -203,6 +203,14 @@
   ],
   "projects": [
     {
+      "name": "NiftyGoods",
+      "isActive": true,
+      "description": "A ecommerce website that allows users to browse and purchase products from various categories. with a dashboard admin panel for managing orders and inventory.",
+      "highlights": ["Prisma", "TypeScript", "Nextjs"],
+      "url": "https://nifty-goods.vercel.app/",
+      "github": "https://github.com/aledx18/NiftyGoods"
+    },
+    {
       "name": "Perfect Fit",
       "isActive": true,
       "description": "Allows users to crop and resize their images to fit perfectly on various social media platforms.",
