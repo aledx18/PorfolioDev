@@ -7,6 +7,7 @@ import X from "@/icons/X.astro"
 import LinkedIn from "@/icons/LinkedIn.astro"
 import GitHub from "@/icons/GitHub.astro"
 import WorldMap from "@/icons/WorldMap.astro"
+import ThemeIcon from '../ThemeIcon.astro'
 
 const { name, label, image, location, profiles, phone, email } = basics
 const { city, region } = location
@@ -36,7 +37,8 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
         {printInfo}
       </footer>
       <footer class="no-print">
-        {
+       <div>
+         {
           email && (
             <a
               href={`mailto:${email}`}
@@ -76,7 +78,11 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
             )
           })
         }
+       </div>
+      <ThemeIcon />
       </footer>
+     
+   
     </div>
     <figure>
       <img src={image} alt={name} />
@@ -111,6 +117,10 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     text-wrap: balance;
   }
 
+  html.dark h2{
+    color: #eee;
+  }
+
   img {
     aspect-ratio: 1 / 1;
     object-fit: cover;
@@ -133,6 +143,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     display: flex;
     gap: 4px;
     margin-top: 8px;
+   
   }
 
   footer a {
@@ -146,6 +157,15 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     width: 32px;
     border-radius: 6px;
     transition: all 0.3s ease;
+  }
+
+  html.dark footer a{
+    background-color: #1b1b1b;
+    border: 1px solid #2c2c2e;
+  }
+
+  html.dark footer a:hover{
+    background-color: #2c2c2e;
   }
 
   footer a:hover {
