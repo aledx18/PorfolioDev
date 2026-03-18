@@ -1,11 +1,12 @@
 ---
 import Section from "../Section.astro"
 
-import { basics } from "@cv"
+import { getI18N } from "@/i18n"
+const { basics, ui } = getI18N({ currentLocale: Astro.currentLocale })
 const { summary } = basics
 ---
 
-<Section title="Sobre mí">
+<Section title={ui.about_title}>
   <p>
     {summary}
   </p>

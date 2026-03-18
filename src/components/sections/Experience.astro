@@ -1,10 +1,11 @@
 ---
 import Section from '../Section.astro'
 
-import { work } from '@cv'
+import { getI18N } from "@/i18n"
+const { work, ui } = getI18N({ currentLocale: Astro.currentLocale })
 ---
 
-<Section title='Experiencia laboral'>
+<Section title={ui.experience_title}>
   <ul>
     {
       work.map(

@@ -1,5 +1,6 @@
 ---
-import { basics } from "@cv"
+import { getI18N } from "@/i18n"
+const { basics, ui } = getI18N({ currentLocale: Astro.currentLocale })
 import Section from "@/components/Section.astro"
 import Mail from "@/icons/Mail.astro"
 import Phone from "@/icons/Phone.astro"
@@ -69,7 +70,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
             return (
               <a
                 href={url}
-                title={`Visitar el perfil de ${name} en ${network}`}
+                title={`${ui.visit} ${name} - ${network}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
