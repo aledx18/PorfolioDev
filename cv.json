@@ -7,7 +7,13 @@
     "print_button": "Imprimir",
     "search_command": "Buscar comando",
     "visit": "Visitar",
-    "label_command" : ["Pulsa ", "Cmd", " + ", "K", " para abrir la paleta de comandos."]
+    "label_command": [
+      "Pulsa ",
+      "Cmd",
+      " + ",
+      "K",
+      " para abrir la paleta de comandos."
+    ]
   },
   "basics": {
     "name": "Alejandro Nahuel Díaz",
@@ -15,7 +21,7 @@
     "image": "/meopt.jpg",
     "email": "alediiaz18@gmail.com",
     "phone": "+54 38111111",
-    "url": "https://midu.dev",
+    "url": "https://...",
     "summary": "3 años construyendo productos web que funcionan bien y se mantienen mejor. Trabajo cómodamente entre el frontend y el backend, desde interfaces en React.Js, NextJs con Tailwind hasta APIs en backend y bases de datos SQL Server. Colaborativo, orientado a soluciones y con capacidad para adaptarme rápidamente a nuevos retos técnicos.",
     "location": {
       "address": "",
@@ -45,7 +51,9 @@
       "startDate": "Apr 2023-",
       "endDate": "Nov 2023",
       "summary": "IT Services and IT Consulting, Trabajar con diseñadores para implementar diseños de manera efectiva y asegurarse de que la experiencia del usuario sea coherente y de alta calidad.",
-      "highlights": ["Started the company"]
+      "highlights": [
+        "Started the company"
+      ]
     }
   ],
   "volunteer": [
@@ -56,7 +64,9 @@
       "startDate": "2012-01-01",
       "endDate": "2013-01-01",
       "summary": "Description…",
-      "highlights": ["Awarded 'Volunteer of the Month'"]
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
     }
   ],
   "education": [
@@ -68,7 +78,9 @@
       "startDate": "2003-01-01",
       "endDate": "2009-01-01",
       "score": "4.0",
-      "courses": ["DB1101 - Basic SQL"]
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
     }
   ],
   "awards": [
@@ -101,7 +113,12 @@
       "name": "JavaScript",
       "level": "Master",
       "icon": "javaScript",
-      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
     },
     {
       "name": "Tailwind",
@@ -129,7 +146,12 @@
       "name": "Node",
       "level": "Avanzado",
       "icon": "nodeJs",
-      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+      "keywords": [
+        "Desarrollo Web",
+        "Backend",
+        "JavaScript",
+        "Servidor"
+      ]
     },
     {
       "name": "MySQL",
@@ -157,7 +179,11 @@
       "name": "Git",
       "level": "Avanzado",
       "icon": "git",
-      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente"
+      ]
     },
     {
       "name": "GitHub",
@@ -186,7 +212,12 @@
       "name": "React",
       "level": "Avanzado",
       "icon": "react",
-      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
     }
   ],
   "languages": [
@@ -202,7 +233,10 @@
   "interests": [
     {
       "name": "Wildlife",
-      "keywords": ["Ferrets", "Unicorns"]
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
     }
   ],
   "references": [
@@ -216,7 +250,11 @@
       "name": "NiftyGoods",
       "isActive": true,
       "description": "A ecommerce website that allows users to browse and purchase products from various categories. with a dashboard admin panel for managing orders and inventory.",
-      "highlights": ["Prisma", "TypeScript", "Nextjs"],
+      "highlights": [
+        "Prisma",
+        "TypeScript",
+        "Nextjs"
+      ],
       "url": "https://nifty-goods.vercel.app/",
       "github": "https://github.com/aledx18/NiftyGoods"
     },
@@ -224,7 +262,10 @@
       "name": "Perfect Fit",
       "isActive": true,
       "description": "Allows users to crop and resize their images to fit perfectly on various social media platforms.",
-      "highlights": ["Crop and Resize", "cloudinary"],
+      "highlights": [
+        "Crop and Resize",
+        "cloudinary"
+      ],
       "url": "https://perfect-fit-woad.vercel.app/",
       "github": "https://github.com/aledx18/PerfectFit"
     },
@@ -232,7 +273,11 @@
       "name": "GameBoost",
       "isActive": true,
       "description": "Is a web application that allows users to search for the games in different platforms and also to buy them",
-      "highlights": ["Games", "Nextjs", "JavaScript & TypeScript"],
+      "highlights": [
+        "Games",
+        "Nextjs",
+        "JavaScript & TypeScript"
+      ],
       "url": "https://gameshop-pearl.vercel.app/",
       "github": "https://github.com/aledx18/shop"
     },
@@ -240,7 +285,11 @@
       "name": "Sentiment Analyze",
       "isActive": true,
       "description": "AI analyze the sentiment of text input by the user and provide one of three responses: happy, neutral, or sad.",
-      "highlights": ["Ai", "tailwind", "Cohere"],
+      "highlights": [
+        "Ai",
+        "tailwind",
+        "Cohere"
+      ],
       "url": "https://sentiment-analysis-liart.vercel.app/",
       "github": "https://github.com/aledx18/SentimentAnalysis"
     },
@@ -248,7 +297,10 @@
       "name": "Weather App",
       "isActive": true,
       "description": "A web application that allows users to search for the weather in different cities.",
-      "highlights": ["Clima", "weather app"],
+      "highlights": [
+        "Clima",
+        "weather app"
+      ],
       "url": "https://weather-app-two-alpha-40.vercel.app/",
       "github": "https://github.com/aledx18/weather-app"
     },
@@ -256,7 +308,10 @@
       "name": "TopSpotify",
       "isActive": true,
       "description": "Connect your Spotify account and get instant insights into your top-played songs, favorite artists, and preferred genres.",
-      "highlights": ["Stadisticas", "Spotify"],
+      "highlights": [
+        "Stadisticas",
+        "Spotify"
+      ],
       "url": "https://top-spotify-stats.vercel.app/",
       "github": "https://github.com/aledx18/topSpotifyStats"
     }
